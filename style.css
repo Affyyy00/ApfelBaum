@@ -1,0 +1,17 @@
+:root{
+    --firstRGBcolor: rgba(211, 107, 232, 1);
+    --secondRGBcoler:rgba(0, 143, 167, 1);
+}
+#colorBody{
+    background: -moz-linear-gradient(to top, var(--firstRGBcolor), var(--secondRGBcoler )) no-repeat;
+    height: 100vh;
+}
+
+button:hover{
+    box-shadow:10px 10px 10px 10px lightblue;
+    transition: box-shadow 1000ms ease-out;
+}
+
+button{
+    border-radius: 40px;
+}
